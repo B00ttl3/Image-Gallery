@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+    <div class="options">
+        <div class="option active" style="--optionBackground: url(NFT\ 1.png);">
+            <div class="label">
+                <div class="icon">
+                    <i class="fas fa-walking"></i>
+                </div>
+                <div class="info">
+                    <div class="main">Clear Collection</div>
+                    <div class="sub">The Nfts which I like</div>
+                </div>
+            </div>
+        </div>
+        <div class="option" style="background-image: url(NFT\ 2.png);">
+            <div class="label">
+                <div class="icon">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <div class="info">
+                    <div class="main">Bear</div>
+                    <div class="sub">The Okay Bear NFT</div>
+                </div>
+            </div>
+        </div>
+        <div class="option" style="background-image: url(NFT\ 3.png);">
+            <div class="label">
+                <div class="icon">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="info">
+                    <div class="main">SMB</div>
+                    <div class="sub">The Solana Monkey Business NFT</div>
+                </div>
+            </div>
+        </div>
+        <div class="option" style="background-image: url(nft\ 4.png);">
+            <div class="label">
+                <div class="icon">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <div class="info">
+                    <div class="main">Lily</div>
+                    <div class="sub">The Lily NFT</div>
+                </div>
+            </div>
+        </div>
+        <div class="option" style="background-image: url(NFT\ 5.jpg);">
+            <div class="label">
+                <div class="icon">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="info">
+                    <div class="main">Entreprenerdz</div>
+                    <div class="sub">The GigaDAO NFT (Entreprenerdz)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".option").click(function(){
+            $(".option").removeClass("active");
+            $(this).addClass('active');
+        });
+    </script>
+</body>
+
+</html>
